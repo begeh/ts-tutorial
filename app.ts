@@ -1,3 +1,9 @@
+const button = document.querySelector('button')!;
+
+button.addEventListener('click', () => {
+  console.log('Clicked!');
+});
+
 let userInput: unknown;
 let userName: string;
 
